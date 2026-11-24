@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scotia-Synth — Synthetic transaction generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="site-header">
+        <div class="brand">
+          <p class="eyebrow">Demo data only</p>
+          <h1>Scotia-Synth</h1>
+          <p class="tagline">
+            Synthetic Canadian bank transactions. Not a real statement, and not
+            affiliated with any financial institution.
+          </p>
+        </div>
+        <div class="header-actions">
+          <button type="button" id="btn-generate" class="btn btn-primary">Generate</button>
+          <button type="button" id="btn-load" class="btn">Load bundled dataset</button>
+          <button type="button" id="btn-csv" class="btn" disabled>Download CSV</button>
+          <button type="button" id="btn-json" class="btn" disabled>Download JSON</button>
+        </div>
+      </header>
+
+      <div class="status-bar" id="status-bar" hidden></div>
+
+      <nav class="tabs" role="tablist">
+        <button type="button" class="tab is-active" data-tab="generator" role="tab" aria-selected="true">
+          Generator
+        </button>
+        <button type="button" class="tab" data-tab="statement" role="tab" aria-selected="false">
+          Sample statement
+        </button>
+      </nav>
+
+      <section id="panel-generator" class="panel is-active" role="tabpanel">
+        <form id="controls" class="controls" autocomplete="off">
+          <div class="control-grid">
+            <label>
+              <span>Seed</span>
+              <div class="seed-row">
+                <input type="text" id="seed" name="seed" value="20261123" />
+                <button type="button" id="btn-random-seed" class="btn btn-quiet" title="New seed">↻</button>
+              </div>
+            </label>
+            <label>
+              <span>Account type</span>
+              <select id="account-type" name="account_type">
+                <option value="chequing">Chequing</option>
+                <option value="savings">Savings</option>
+                <option value="both" selected>Both</option>
+              </select>
+            </label>
+            <label>
+              <span>Number of accounts</span>
+              <select id="num-accounts" name="num_accounts">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </label>
+            <label>
+              <span>Starting balance (CAD)</span>
+              <input type="number" id="starting-balance" name="starting_balance" value="3842.17" min="0" step="0.01" />
+            </label>
+            <label>
+              <span>Number of transactions</span>
+              <select id="num-transactions" name="num_transactions">
+                <option>50</option>
+                <option>100</option>
+                <option selected>250</option>
+                <option>500</option>
+                <option>1000</option>
+              </select>
+            </label>
+            <label>
+              <span>End date</span>
+              <input type="date" id="end-date" name="end_date" value="2026-11-23" />
+            </label>
+            <label>
+              <span>Min amount (optional)</span>
+              <input type="number" id="min-amount" name="min_amount" min="0" step="0.01" placeholder="Category defaults" />
+            </label>
+            <label>
+              <span>Max amount (optional)</span>
+              <input type="number" id="max-amount" name="max_amount" min="0" step="0.01" placeholder="Category defaults" />
+            </label>
+          </div>
+          <p class="window-label" id="window-label"></p>
+
+          <fieldset>
+            <legend>
+              Merchant categories
+              <button type="button" class="linkish" id="cats-all">All</button>
+              <button type="button" class="linkish" id="cats-none">None</button>
+            </legend>
+            <div class="check-grid" id="category-list"></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              Transaction-type mix
+              <span class="hint">Uncheck to exclude. Weight is relative.</span>
+            </legend>
+            <div class="type-grid" id="type-list"></div>
+          </fieldset>
+        </form>
+
+        <div class="preview">
+          <div class="preview-head">
+            <h2>Preview</h2>
+            <p id="preview-meta" class="muted">No data yet.</p>
+          </div>
+          <div class="table-wrap">
+            <table id="preview-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Account</th>
+                  <th>Transactions</th>
+                  <th>Type</th>
+                  <th class="num">Withdrawn</th>
+                  <th class="num">Deposited</th>
+                  <th class="num">Balance</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="panel-statement" class="panel" role="tabpanel" hidden>
+        <div class="statement-toolbar">
+          <label>
+            <span>Account</span>
+            <select id="statement-account"></select>
+          </label>
+          <label>
+            <span>Statement period</span>
+            <select id="statement-period"></select>
+          </label>
+        </div>
+        <div id="statement-root" class="statement-root">
+          <p class="muted">Generate or load a dataset to render a sample statement.</p>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
