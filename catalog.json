@@ -1,0 +1,218 @@
+{
+  "disclaimer": "SYNTHETIC SAMPLE – NOT A REAL STATEMENT",
+  "currency": "CAD",
+  "institution_label": "Personal Account Statement",
+  "holder": {
+    "name": "Jordan Hale",
+    "address_lines": ["142 Example Avenue", "Edmonton, AB  T5J 0A1"],
+    "customer_number": "SYN-0001842"
+  },
+  "employers": [
+    "NORTHLINE LOGISTICS LTD",
+    "PRAIRIE WEST DIGITAL INC",
+    "AURORA HEALTH SERVICES"
+  ],
+  "etransfer_contacts": [
+    "AVERY CHEN",
+    "MORGAN PATEL",
+    "SAM REED",
+    "RILEY NGUYEN",
+    "JAMIE KOWALSKI",
+    "CASEY BOUCHARD",
+    "TAYLOR SINGH",
+    "QUINN DESROCHERS",
+    "ALEX MORIN",
+    "PARKER WALSH"
+  ],
+  "abm_locations": [
+    {"name": "101 ST & JASPER", "city": "EDMONTON", "province": "AB"},
+    {"name": "WHYTE AVENUE", "city": "EDMONTON", "province": "AB"},
+    {"name": "WEST EDMONTON MALL", "city": "EDMONTON", "province": "AB"},
+    {"name": "DOWNTOWN BRANCH", "city": "EDMONTON", "province": "AB"},
+    {"name": "SOUTH COMMON", "city": "EDMONTON", "province": "AB"},
+    {"name": "STEPHEN AVE", "city": "CALGARY", "province": "AB"},
+    {"name": "C-TRAIN SUNALTA", "city": "CALGARY", "province": "AB"},
+    {"name": "KINGSWAY GARDEN", "city": "EDMONTON", "province": "AB"}
+  ],
+  "fee_descriptions": [
+    "MONTHLY ACCOUNT FEE",
+    "ABM NETWORK FEE",
+    "PAPER STATEMENT FEE",
+    "OVERDRAFT INTEREST CHARGE"
+  ],
+  "merchants": {
+    "grocery": [
+      {"name": "LOBLAWS", "number": "1042", "city": "EDMONTON", "province": "AB"},
+      {"name": "NO FRILLS", "number": "3371", "city": "EDMONTON", "province": "AB"},
+      {"name": "SOBEYS", "number": "886", "city": "CALGARY", "province": "AB"},
+      {"name": "SUPERSTORE", "number": "1512", "city": "EDMONTON", "province": "AB"},
+      {"name": "FRESHCO", "number": "4920", "city": "CALGARY", "province": "AB"},
+      {"name": "WALMART SUPERCENTER", "number": "1138", "city": "EDMONTON", "province": "AB"},
+      {"name": "COSTCO WHOLESALE", "number": "255", "city": "EDMONTON", "province": "AB"},
+      {"name": "METRO", "number": "6704", "city": "TORONTO", "province": "ON"},
+      {"name": "SAFEWAY", "number": "221", "city": "EDMONTON", "province": "AB"},
+      {"name": "FOOD BASICS", "number": "908", "city": "OTTAWA", "province": "ON"},
+      {"name": "SAVE-ON-FOODS", "number": "6612", "city": "VANCOUVER", "province": "BC"},
+      {"name": "INDEPENDENT GROCER", "number": "1744", "city": "SASKATOON", "province": "SK"}
+    ],
+    "gas": [
+      {"name": "PETRO-CANADA", "number": "418", "city": "EDMONTON", "province": "AB"},
+      {"name": "SHELL", "number": "1209", "city": "EDMONTON", "province": "AB"},
+      {"name": "ESSO", "number": "552", "city": "CALGARY", "province": "AB"},
+      {"name": "MOBIL", "number": "77", "city": "EDMONTON", "province": "AB"},
+      {"name": "HUSKY", "number": "2301", "city": "RED DEER", "province": "AB"},
+      {"name": "PIONEER", "number": "64", "city": "EDMONTON", "province": "AB"},
+      {"name": "CANADIAN TIRE GAS+", "number": "396", "city": "EDMONTON", "province": "AB"},
+      {"name": "CO-OP GAS BAR", "number": "18", "city": "SHERWOOD PARK", "province": "AB"}
+    ],
+    "retail": [
+      {"name": "CANADIAN TIRE", "number": "396", "city": "EDMONTON", "province": "AB"},
+      {"name": "WINNERS", "number": "241", "city": "EDMONTON", "province": "AB"},
+      {"name": "DOLLARAMA", "number": "1188", "city": "EDMONTON", "province": "AB"},
+      {"name": "BEST BUY", "number": "525", "city": "EDMONTON", "province": "AB"},
+      {"name": "SPORT CHEK", "number": "172", "city": "CALGARY", "province": "AB"},
+      {"name": "IKEA", "number": "002", "city": "EDMONTON", "province": "AB"},
+      {"name": "HOME DEPOT", "number": "7054", "city": "EDMONTON", "province": "AB"},
+      {"name": "RONA", "number": "53012", "city": "CALGARY", "province": "AB"},
+      {"name": "INDIGO", "number": "680", "city": "EDMONTON", "province": "AB"},
+      {"name": "MARK'S", "number": "449", "city": "EDMONTON", "province": "AB"},
+      {"name": "OLD NAVY", "number": "3317", "city": "EDMONTON", "province": "AB"},
+      {"name": "SEPHORA", "number": "0904", "city": "EDMONTON", "province": "AB"},
+      {"name": "ATMOSPHERE", "number": "215", "city": "CALGARY", "province": "AB"}
+    ],
+    "restaurants": [
+      {"name": "MCDONALD'S", "number": "40112", "city": "EDMONTON", "province": "AB"},
+      {"name": "A&W", "number": "387", "city": "EDMONTON", "province": "AB"},
+      {"name": "SUBWAY", "number": "22109", "city": "EDMONTON", "province": "AB"},
+      {"name": "SWISS CHALET", "number": "1190", "city": "CALGARY", "province": "AB"},
+      {"name": "BOSTON PIZZA", "number": "42", "city": "EDMONTON", "province": "AB"},
+      {"name": "EARLS", "number": "18", "city": "EDMONTON", "province": "AB"},
+      {"name": "THE KEG", "number": "07", "city": "EDMONTON", "province": "AB"},
+      {"name": "CACTUS CLUB", "number": "12", "city": "CALGARY", "province": "AB"},
+      {"name": "WENDY'S", "number": "6334", "city": "EDMONTON", "province": "AB"},
+      {"name": "HARVEY'S", "number": "275", "city": "EDMONTON", "province": "AB"},
+      {"name": "NANDO'S", "number": "31", "city": "CALGARY", "province": "AB"},
+      {"name": "JOEY RESTAURANTS", "number": "09", "city": "EDMONTON", "province": "AB"}
+    ],
+    "coffee": [
+      {"name": "TIM HORTONS", "number": "2851", "city": "EDMONTON", "province": "AB"},
+      {"name": "TIM HORTONS", "number": "1640", "city": "EDMONTON", "province": "AB"},
+      {"name": "STARBUCKS", "number": "4721", "city": "EDMONTON", "province": "AB"},
+      {"name": "STARBUCKS", "number": "1998", "city": "CALGARY", "province": "AB"},
+      {"name": "SECOND CUP", "number": "226", "city": "EDMONTON", "province": "AB"},
+      {"name": "AROMA ESPRESSO", "number": "14", "city": "TORONTO", "province": "ON"},
+      {"name": "GOOD EARTH COFFEE", "number": "08", "city": "CALGARY", "province": "AB"},
+      {"name": "WAVE COFFEE", "number": "03", "city": "EDMONTON", "province": "AB"}
+    ],
+    "pharmacy": [
+      {"name": "SHOPPERS DRUG MART", "number": "2402", "city": "EDMONTON", "province": "AB"},
+      {"name": "SHOPPERS DRUG MART", "number": "387", "city": "EDMONTON", "province": "AB"},
+      {"name": "REXALL", "number": "7245", "city": "EDMONTON", "province": "AB"},
+      {"name": "LONDON DRUGS", "number": "62", "city": "EDMONTON", "province": "AB"},
+      {"name": "PHARMACHOICE", "number": "118", "city": "SHERWOOD PARK", "province": "AB"},
+      {"name": "GUARDIAN PHARMACY", "number": "44", "city": "ST. ALBERT", "province": "AB"}
+    ],
+    "online": [
+      {"name": "AMAZON.CA", "number": null, "city": "AMZN.COM/BILL", "province": "ON"},
+      {"name": "AMZN MKTP CA", "number": null, "city": "AMZN.COM/BILL", "province": "ON"},
+      {"name": "NETFLIX.COM", "number": null, "city": "NETFLIX.COM", "province": "ON"},
+      {"name": "SPOTIFY", "number": null, "city": "SPOTIFY.COM", "province": "SE"},
+      {"name": "APPLE.COM/BILL", "number": null, "city": "APPLE.COM/BILL", "province": "ON"},
+      {"name": "GOOGLE *SERVICES", "number": null, "city": "GOOGLE.COM", "province": "CA"},
+      {"name": "STEAMGAMES.COM", "number": null, "city": "STEAMGAMES", "province": "WA"},
+      {"name": "UBER CANADA", "number": null, "city": "UBER.COM", "province": "ON"},
+      {"name": "DOORDASH", "number": null, "city": "DOORDASH.COM", "province": "ON"},
+      {"name": "SKIPTHEDISHES", "number": null, "city": "SKIP.CA", "province": "MB"},
+      {"name": "ADOBE", "number": null, "city": "ADOBE.COM", "province": "CA"},
+      {"name": "MICROSOFT*XBOX", "number": null, "city": "MICROSOFT", "province": "WA"}
+    ],
+    "utilities": [
+      {"name": "EPCOR ENERGY", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "EPCOR WATER", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "ENBRIDGE GAS", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "ATCO GAS", "number": null, "city": "CALGARY", "province": "AB"},
+      {"name": "FORTISALBERTA", "number": null, "city": "CALGARY", "province": "AB"},
+      {"name": "EDMONTON WASTE MGMT", "number": null, "city": "EDMONTON", "province": "AB"}
+    ],
+    "telecom": [
+      {"name": "TELUS MOBILITY", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "TELUS", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "ROGERS", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "BELL CANADA", "number": null, "city": "MONTREAL", "province": "QC"},
+      {"name": "KOODO", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "FIDO", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "VIRGIN PLUS", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "FREEDOM MOBILE", "number": null, "city": "TORONTO", "province": "ON"}
+    ],
+    "insurance": [
+      {"name": "INTACT INSURANCE", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "AVIVA CANADA", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "SONNET INSURANCE", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "CAA INSURANCE", "number": null, "city": "EDMONTON", "province": "AB"},
+      {"name": "MANULIFE", "number": null, "city": "WATERLOO", "province": "ON"},
+      {"name": "SUN LIFE", "number": null, "city": "TORONTO", "province": "ON"},
+      {"name": "THE CO-OPERATORS", "number": null, "city": "GUELPH", "province": "ON"},
+      {"name": "WAWANESA", "number": null, "city": "WINNIPEG", "province": "MB"}
+    ]
+  },
+  "default_amount_ranges": {
+    "grocery": [28, 195],
+    "gas": [35, 110],
+    "retail": [12, 220],
+    "restaurants": [18, 95],
+    "coffee": [3.5, 14],
+    "pharmacy": [8, 65],
+    "online": [9.99, 89.99],
+    "utilities": [65, 240],
+    "telecom": [45, 185],
+    "insurance": [85, 280],
+    "interac_etransfer": [15, 250],
+    "abm": [20, 200],
+    "fee": [1.5, 16.95],
+    "interest": [0.42, 9.85],
+    "payroll": [1850, 3250],
+    "transfer": [50, 800],
+    "pad": [25, 220],
+    "bill_payment": [40, 250],
+    "pos": [8, 160],
+    "mobile_pay": [4, 85]
+  },
+  "default_type_weights": {
+    "interac_etransfer": 10,
+    "pad": 8,
+    "bill_payment": 8,
+    "pos": 28,
+    "abm": 6,
+    "fee": 3,
+    "interest": 2,
+    "payroll": 7,
+    "transfer": 6,
+    "mobile_pay": 14
+  },
+  "type_labels": {
+    "interac_etransfer": "Interac e-Transfer",
+    "pad": "PAD",
+    "bill_payment": "Bill payment",
+    "pos": "POS",
+    "abm": "ABM",
+    "fee": "Fee",
+    "interest": "Interest",
+    "payroll": "Payroll",
+    "transfer": "Transfer",
+    "mobile_pay": "Mobile pay"
+  },
+  "category_labels": {
+    "grocery": "Grocery",
+    "gas": "Gas",
+    "retail": "Retail",
+    "restaurants": "Restaurants",
+    "coffee": "Coffee",
+    "pharmacy": "Pharmacy",
+    "online": "Online",
+    "utilities": "Utilities",
+    "telecom": "Telecom",
+    "insurance": "Insurance"
+  },
+  "spend_categories": ["grocery", "gas", "retail", "restaurants", "coffee", "pharmacy", "online"],
+  "bill_categories": ["utilities", "telecom", "insurance"]
+}
